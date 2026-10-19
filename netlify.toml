@@ -1,0 +1,4 @@
+# Netlify configuration for the WorldClock landing page.
+# The single index.html at the repository root is published as-is — no build step.
+[build]
+  publish = "."
