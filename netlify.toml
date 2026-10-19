@@ -1,4 +1,5 @@
 # Netlify configuration for the WorldClock landing page.
-# The single index.html at the repository root is published as-is — no build step.
+# The build copies only the landing-site files into dist/ (no bundler).
 [build]
-  publish = "."
+  command = "mkdir -p dist && cp index.html tailwind.css robots.txt sitemap.xml dist/ && cp -r screenshots dist/"
+  publish = "dist"
