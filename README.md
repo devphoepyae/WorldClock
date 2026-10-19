@@ -2,7 +2,7 @@
 
 A minimalist, lightweight, and offline-first World Clock Android application built with native Kotlin and Jetpack Compose. Designed for simplicity, performance, and a clean monochrome aesthetic.
 
-🌐 **[Landing Page](https://devphoepyae.github.io/WorldClock/)** · **[Netlify](https://worldclock-devphoepyae.netlify.app/)** — Features overview and direct APK download.
+🌐 **[Landing Page](https://devphoepyae.github.io/WorldClock/)** · **[Netlify](https://worldclock-android.netlify.app/)** — Features overview and direct APK download.
 
 ---
 
