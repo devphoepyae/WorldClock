@@ -2,6 +2,8 @@
 
 A minimalist, lightweight, and offline-first World Clock Android application built with native Kotlin and Jetpack Compose. Designed for simplicity, performance, and a clean monochrome aesthetic.
 
+🌐 **[Landing Page](https://devphoepyae.github.io/WorldClock/)** — Features overview and direct APK download.
+
 ---
 
 ## ✨ Features
@@ -29,7 +31,7 @@ A minimalist, lightweight, and offline-first World Clock Android application bui
 
 ## 📦 Download & Installation
 
-You can download the latest release APK directly from the [Releases](../../releases) page and install it on your Android device.
+You can download the latest release APK directly from the [Releases](../../releases) page or the [landing page](https://devphoepyae.github.io/WorldClock/) and install it on your Android device.
 
 ---
 
