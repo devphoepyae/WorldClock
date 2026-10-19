@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light monochrome palette (spec section 8). Values are duplicated in the
+         Compose theme; only the window background is needed here so the app does
+         not flash white before the first frame is drawn. -->
+    <color name="wc_background">#F3F3F1</color>
+
+    <!-- Adaptive app-icon background. -->
+    <color name="ic_launcher_background">#F3F3F1</color>
+</resources>

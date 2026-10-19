@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  App mark: a black clock fused with globe lines on an off-white background
+  (spec section 8). Drawn for the 108 dp adaptive-icon canvas; all geometry
+  stays inside the central 66 dp safe zone.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Globe / clock outline -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M26,54 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0"
+        android:strokeColor="#FF111111"
+        android:strokeWidth="3.5" />
+
+    <!-- Latitude line (equator) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M26,54 L82,54"
+        android:strokeColor="#FF111111"
+        android:strokeWidth="2.5" />
+
+    <!-- Longitude line (meridian) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,26 a14,28 0 1,0 0,56 a14,28 0 1,0 0,-56"
+        android:strokeColor="#FF111111"
+        android:strokeWidth="2.5" />
+
+    <!-- Hour hand -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54 L54,43"
+        android:strokeColor="#FF111111"
+        android:strokeLineCap="round"
+        android:strokeWidth="4" />
+
+    <!-- Minute hand (pointing at 2 o'clock, so it never lines up with the equator) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54 L67,46.5"
+        android:strokeColor="#FF111111"
+        android:strokeLineCap="round"
+        android:strokeWidth="4" />
+
+    <!-- Centre pin -->
+    <path
+        android:fillColor="#FF111111"
+        android:pathData="M54,50 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8" />
+</vector>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The home-screen widget's provider info (spec section 5.11).
+
+  minWidth/minHeight are the default footprint: four cells by four, which is
+  exactly what the six-city layout needs, so a freshly added widget shows every
+  saved city without being resized first. targetCell* is the same footprint
+  expressed the API 31+ way, and is ignored below that.
+
+  updatePeriodMillis is the platform's own, permission-free backstop at 30
+  minutes (its minimum). The minute-accurate refresh is the AlarmManager ticker
+  in WidgetTicker, and this is what puts that ticker back if it is ever lost.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:description="@string/widget_description"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:minHeight="250dp"
+    android:minWidth="250dp"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellHeight="4"
+    android:targetCellWidth="4"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen"
+    tools:targetApi="31" />
